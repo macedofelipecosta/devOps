@@ -9,7 +9,7 @@ metadata:
 spec:
   containers:
     - name: wget
-      image: busybox
+      image:  nginx:latest
       command: ['wget']
       args: ['{{ include "techtalks.fullname" . }}:{{ .Values.service.port }}']
   restartPolicy: Never
