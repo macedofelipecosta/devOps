@@ -240,6 +240,11 @@ kubeclt get crd
 
 ![autoscaled down consumers](/images/KEDA-CRD.PNG)
 
+
+
+
+
+
 ---
 
 As part of the KEDA installation, ScaledObject and TriggerAuthentications are deployed on the Kubernetes cluster.
